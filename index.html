@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- <h1>Hi There 👍,. Is everything Ok</h1> -->
+
+    <body class="bg-cover bg-center h-screen bg-[url('./assets/myHero.jpg')]">
+        <div class="items-center ml-[400px] ">
+
+          <h1 class="pl-20 mb-7  pt-96 font-bold text-6xl text-white"><span id="Tarehe"></span></h1>
+          <p class="mb-7 font-bold text-4xl text-white">Good morning, David.</p>
+
+          <p class="mb-10 text-white text-3xl">What is your main focus for today ?</p>
+
+          <hr class="mb-10 border-t-3 w-[470px] font-bold "/>
+
+          <p class="text-white text-2xl">"There is no such thing as failure,just lessons to be learnt on the way"</p>
+        </div>
+        <script>
+            var x = new Date().toLocaleTimeString([],{ hour:'2-digit', minute:'2-digit'});
+            document.getElementById('Tarehe').innerHTML=x;
+        </script>
+          
+    </body>
+</body>
+</html>
