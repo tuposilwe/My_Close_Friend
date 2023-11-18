@@ -13,9 +13,9 @@
 
 # This project includes
 
--TailWind_CSS,Html
--Java Script(Node.js)
--Vite
+- TailWind_CSS,Html
+- Java Script(Node.js)
+- Vite
 
 @This is For Docker and Kubernetes BootCamp
 
